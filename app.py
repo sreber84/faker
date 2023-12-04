@@ -4,9 +4,7 @@ from faker import Faker
 import pandas as pd 
 import numpy as np
  
- 
 Faker.seed(96)
- 
  
 def generate_persons(num = 42):
     fake = Faker()
